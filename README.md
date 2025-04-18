@@ -1,14 +1,20 @@
-# 💳 Credit Card Fraud Detection
+#  Credit Card Fraud Detection
 
-Credit card fraud is a growing threat in the digital financial landscape, with billions lost annually and customer trust on the line. Detecting fraud accurately — without overwhelming users with false positives — is a complex, high-stakes challenge due to the rarity and evolving nature of fraudulent behavior.
+Fraudulent transactions pose a major challenge for financial institutions, often hiding in massive volumes of legitimate activity. This project focuses on **credit card fraud detection** using **unsupervised machine learning** techniques to identify anomalies in transaction data — without relying on labeled fraud cases.
 
-This project investigates **unsupervised anomaly detection techniques** using anonymized real-world credit card transaction data. The models used are particularly suited for **highly imbalanced datasets**, where fraudulent transactions represent less than 0.2% of the data.
+The system explores and compares models such as **Isolation Forest**, **One-Class SVM**, and **Local Outlier Factor**, leveraging their ability to detect abnormal behavior based on learned patterns of normal transactions.
+
+Built with Python, the project uses **scikit-learn**, **pandas**, and **matplotlib**, and includes data preprocessing, feature selection, performance evaluation, and custom fraud verdict visualizations.
+
+
 
 ---
 
-## 🔍 Project Overview
+## Project Overview
 
-Using Python and libraries such as `scikit-learn`, `pandas`, and `matplotlib`, the following tasks were performed:
+Libraries used : `scikit-learn`, `pandas`, and `matplotlib`
+
+### Tasks :
 
 - **Data exploration & visualization**: To understand class distribution and feature behavior
 - **Model training & evaluation**:
