@@ -27,22 +27,24 @@ Libraries used : `scikit-learn`, `pandas`, and `matplotlib`
 
 ---
 
-## 🧠 Motivation
+## Motivation
 
 Most real-world fraud detection problems are unsupervised in nature, meaning we often don't have reliable labeled data for fraudulent behavior. This project simulates that by testing how well models can learn patterns of "normal" behavior — and flag deviations that might represent fraud.
 
 ---
 
-## 📊 Exploratory Data Analysis
+##  Exploratory Data Analysis
 
 The dataset features 28 PCA-transformed variables (`V1` to `V28`), along with `Time`, `Amount`, and the target variable `Class` (0 = valid, 1 = fraud). We used histograms and density plots to visualize feature distributions and class imbalance.
 
 
 ---
 
-## 🔍 Feature Importance (Random Forest)
+##  Feature Importance (Random Forest)
 
 Random Forest was trained as a supervised baseline to extract top features by importance, guiding the dimensionality reduction for unsupervised models.
+
+![Feature Histograms](images/feature_importance.png)
 
 ---
 
