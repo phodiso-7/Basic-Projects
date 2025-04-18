@@ -48,7 +48,7 @@ Random Forest was trained as a supervised baseline to extract top features by im
 
 ---
 
-## 🤖 Model Performance & Verdict Visualization
+##  Model Performance & Verdict Visualization
 
 Each model was evaluated with detailed classification metrics and custom scatterplots that highlight:
 
