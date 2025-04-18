@@ -42,26 +42,40 @@ The dataset features 28 PCA-transformed variables (`V1` to `V28`), along with `T
 
 ##  Feature Importance (Random Forest)
 
-Random Forest was trained as a supervised baseline to extract top features by importance, guiding the dimensionality reduction for unsupervised models.
+Random Forest Classifier was used extract top features by importance.
 
 ![Feature Histograms](images/feature_importance.png)
+
+With the most siginficant feature showing the below distribution :
+
+![Feature Histograms](images/v14_feature.png)
+
+---
+
+##  Evaluation of the correlation between features
+
+![Feature Histograms](images/correlation.png)
 
 ---
 
 ##  Model Performance & Verdict Visualization
 
-Each model was evaluated with detailed classification metrics and custom scatterplots that highlight:
+Each model was evaluated with on classification metrics to specifically highlight:
 
 - **TP**: Correctly identified fraud  
 - **FN**: Missed fraud  
 - **FP**: False alarms  
 - **TN**: Correctly identified valid transactions  
 
-### Example: SVM Verdict Visualization
+### SVM Verdict Visualization (1 of 3 Models) 
+
+We examine how the model performed in anomaly detection by examining a scatter of the most important feature after classification
+
+![Feature Histograms](images/v14_p1.png)
 
 
 
-## ✅ Key Results & Insights
+##  Key Results & Insights
 
 | Model                | Fraud Recall (%) | Fraud Precision (%) | F1-Score | False Positive Rate |
 |---------------------|------------------|----------------------|----------|----------------------|
